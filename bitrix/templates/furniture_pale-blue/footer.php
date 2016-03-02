@@ -9,8 +9,11 @@ IncludeTemplateLangFile(__FILE__);?>
         <div class="row">
             <div class="col-md-8">
                 <p>
-                    По всем интересующим Вас вопросам Вы можете связаться с нами с помощью контактной формы или посетив один из наших открытых семинаров.
-                    Мы всегда рады сотрудничеству.
+                    <?$APPLICATION->IncludeFile(
+                        SITE_DIR."include/welcomenote.php",
+                        Array(),
+                        Array("MODE"=>"text")
+                    );?>
                 </p>
             </div>
             <div class="col-md-4">
@@ -25,7 +28,13 @@ IncludeTemplateLangFile(__FILE__);?>
     <footer>
         <div class="row">
             <div class="col-lg-12">
-                <p>&copy; 2016 Отдел математики и информатики <br/>Дагестанского научного центра <br/>Российской академии наук</p>
+                <p>
+                    <?$APPLICATION->IncludeFile(
+                        SITE_DIR."include/footnoter.php",
+                        Array(),
+                        Array("MODE"=>"html")
+                    );?>
+                </p>
             </div>
         </div>
     </footer>
