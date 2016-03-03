@@ -1,19 +1,25 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Об Отделе");?>
+$APPLICATION->SetTitle("Об Отделе Математики и Информатики");?>
 
 
 
     <!-- Page Heading/Breadcrumbs -->
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">About
-                <small>Subheading</small>
+            <h1 class="page-header">
+                <?$APPLICATION->IncludeFile(
+                    SITE_DIR."include/about/header.php",
+                    Array(),
+                    Array("MODE"=>"html")
+                );?>
             </h1>
+
             <ol class="breadcrumb">
-                <li><a href="index.html">Home</a>
+                <li><a href="index.html">Главная</a>
                 </li>
-                <li class="active">About</li>
+                <li class="active">Об Отделе</li>
             </ol>
+
         </div>
     </div>
     <!-- /.row -->
@@ -21,21 +27,66 @@ $APPLICATION->SetTitle("Об Отделе");?>
     <!-- Intro Content -->
     <div class="row">
         <div class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+            <?$APPLICATION->IncludeFile(
+                SITE_DIR."include/about/largeimage.php",
+                Array(),
+                Array("MODE"=>"html")
+            );?>
         </div>
         <div class="col-md-6">
-            <h2>About Modern Business</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+            <h2>
+                <?$APPLICATION->IncludeFile(
+                    SITE_DIR."include/about/headtext.php",
+                    Array(),
+                    Array("MODE"=>"text")
+                );?>
+            </h2>
+                <?$APPLICATION->IncludeFile(
+                    SITE_DIR."include/about/maintext.php",
+                    Array(),
+                    Array("MODE"=>"html")
+                );?>
         </div>
     </div>
     <!-- /.row -->
+
+
+    <hr>
+
+    <!-- Intro Content -->
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="page-header">
+                <?$APPLICATION->IncludeFile(
+                    SITE_DIR."include/about/infohead.php",
+                    Array(),
+                    Array("MODE"=>"text")
+                );?>
+            </h2>
+        </div>
+        <div class="col-md-12">
+            <?$APPLICATION->IncludeFile(
+                SITE_DIR."include/about/infotext.php",
+                Array(),
+                Array("MODE"=>"html")
+            );?>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+
 
     <!-- Team Members -->
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">Our Team</h2>
+            <h2 class="page-header">
+                <?$APPLICATION->IncludeFile(
+                    SITE_DIR."include/about/emphead.php",
+                    Array(),
+                    Array("MODE"=>"text")
+                );?>
+            </h2>
         </div>
         <div class="col-md-4 text-center">
             <div class="thumbnail">
@@ -154,10 +205,18 @@ $APPLICATION->SetTitle("Об Отделе");?>
     </div>
     <!-- /.row -->
 
+
+
     <!-- Our Customers -->
     <div class="row">
         <div class="col-lg-12">
-            <h2 class="page-header">Our Customers</h2>
+            <h2 class="page-header">
+                <?$APPLICATION->IncludeFile(
+                    SITE_DIR."include/about/botthead.php",
+                    Array(),
+                    Array("MODE"=>"text")
+                );?>
+            </h2>
         </div>
         <div class="col-md-2 col-sm-4 col-xs-6">
             <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">

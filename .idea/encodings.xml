@@ -4,6 +4,14 @@
     <file url="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/menu/omidnc/template.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/footer.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/header.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/include/about/botthead.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/include/about/emphead.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/include/about/header.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/include/about/headtext.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/include/about/infohead.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/include/about/infotext.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/include/about/largeimage.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/include/about/maintext.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/include/contacts/adress.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/include/contacts/email.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/include/contacts/head.php" charset="UTF-8" />
