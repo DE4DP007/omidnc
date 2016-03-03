@@ -111,22 +111,18 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
         <div class="item active">
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
-            <div class="carousel-caption">
-                <h2>Отдел Математики и Информатики</h2>
+            <div class="fill text-center">
+                <img src="<?=SITE_TEMPLATE_PATH?>/images/OMIBanner.jpg" alt="Отдел Математики и Информатики">
             </div>
+            <?/*<div class="carousel-caption">
+                <h2>Отдел Математики и Информатики</h2>
+            </div>*/?>
         </div>
         <div class="item">
             <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-            <div class="carousel-caption">
-                <h2>Заседание научного семинара</h2>
-            </div>
         </div>
         <div class="item">
             <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-            <div class="carousel-caption">
-                <h2>Ученые Отдела за работой</h2>
-            </div>
         </div>
     </div>
 

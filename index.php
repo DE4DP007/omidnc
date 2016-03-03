@@ -118,7 +118,11 @@ $APPLICATION->SetTitle("Отдел Математики и Информатик�
             );?>
         </div>
         <div class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            <?$APPLICATION->IncludeFile(
+                SITE_DIR."include/maintext2photo.php",
+                Array(),
+                Array("MODE"=>"html")
+            );?>
         </div>
 
         <div class="col-md-12">
