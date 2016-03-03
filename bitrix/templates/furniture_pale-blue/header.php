@@ -71,6 +71,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" id="omilogo" href="<?SITE_DIR?>/">
+                <img class="img-responsive" id="omi-logo" src="<?=SITE_TEMPLATE_PATH?>/images/omi-logo.png" alt="Отдел Математики и Информатики" />
                 Отдел Математики и Информатики
                 <br><small>Дагестанского научного центра РАН</small>
             </a>

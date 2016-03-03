@@ -1,7 +1,9 @@
 #omilogo{   padding-top: 5px;  }
 
+#omi-logo {height:40px; width:auto; float:left; }
 
 #contactform { float:none; margin:0 auto;}
+
 
 
 .panel-default>.panel-heading { background-color:#3980b5 !important; color:#f5f5f5 !important; }
