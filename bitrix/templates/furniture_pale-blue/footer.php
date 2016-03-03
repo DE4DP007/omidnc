@@ -4,25 +4,29 @@ IncludeTemplateLangFile(__FILE__);?>
 
     <hr/>
 
-    <!-- Call to Action Section -->
-    <div class="well">
-        <div class="row">
-            <div class="col-md-8">
-                <p>
-                    <?$APPLICATION->IncludeFile(
-                        SITE_DIR."include/welcomenote.php",
-                        Array(),
-                        Array("MODE"=>"text")
-                    );?>
-                </p>
-            </div>
-            <div class="col-md-4">
-                <a class="btn btn-lg btn-default btn-block" href="#">Связаться с нами</a>
+
+
+    <?if ($APPLICATION->GetCurPage(false) != "/contacts/"):?>
+        <!-- Call to Action Section -->
+        <div class="well">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        <?$APPLICATION->IncludeFile(
+                            SITE_DIR."include/welcomenote.php",
+                            Array(),
+                            Array("MODE"=>"text")
+                        );?>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg btn-default btn-block" href="<?SITE_DIR?>/contacts#contactform">Связаться с нами</a>
+                </div>
             </div>
         </div>
-    </div>
 
-    <hr/>
+        <hr/>
+    <?endif;?>
 
     <!-- Footer -->
     <footer>
