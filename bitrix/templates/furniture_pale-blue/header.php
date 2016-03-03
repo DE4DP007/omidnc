@@ -70,7 +70,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" id="omilogo" href="index.html">
+            <a class="navbar-brand" id="omilogo" href="<?SITE_DIR?>/">
                 Отдел Математики и Информатики
                 <br><small>Дагестанского научного центра РАН</small>
             </a>
@@ -99,42 +99,43 @@
 </nav>
 
 <!-- ========== MAKE IT ON MAIN PAGE ONLY! =========== -->
+<?if ($APPLICATION->GetCurPage(false) == "/"):?>
 <!-- Header Carousel -->
-<header id="myCarousel" class="carousel slide">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
+    <header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-        <div class="item active">
-            <div class="fill text-center">
-                <img src="<?=SITE_TEMPLATE_PATH?>/images/OMIBanner.jpg" alt="Отдел Математики и Информатики">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill text-center">
+                    <img src="<?=SITE_TEMPLATE_PATH?>/images/OMIBanner.jpg" alt="Отдел Математики и Информатики">
+                </div>
+                <?/*<div class="carousel-caption">
+                    <h2>Отдел Математики и Информатики</h2>
+                </div>*/?>
             </div>
-            <?/*<div class="carousel-caption">
-                <h2>Отдел Математики и Информатики</h2>
-            </div>*/?>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+            </div>
         </div>
-        <div class="item">
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-        </div>
-        <div class="item">
-            <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-        </div>
-    </div>
 
-    <!-- Controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="icon-prev"></span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="icon-next"></span>
-    </a>
-</header>
-
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+<?endif;?>
 
 
 
