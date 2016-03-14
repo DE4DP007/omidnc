@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c29ae96d-ff55-40b1-98c5-9528c5f2aeb4" name="Default" comment="">
-      <change type="DELETED" beforePath="F:\PROJ-BITRIX\OMI\bitrix\templates\furniture_pale-blue\images\head.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\PROJ-BITRIX\OMI\bitrix\templates\furniture_pale-blue\images\logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\PROJ-BITRIX\OMI\bitrix\templates\furniture_pale-blue\images\product-01.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\PROJ-BITRIX\OMI\bitrix\templates\furniture_pale-blue\images\product-02.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\PROJ-BITRIX\OMI\bitrix\templates\furniture_pale-blue\images\product-03.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\PROJ-BITRIX\OMI\bitrix\templates\furniture_pale-blue\images\product-04.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\PROJ-BITRIX\OMI\bitrix\templates\furniture_pale-blue\images\product-05.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\PROJ-BITRIX\OMI\bitrix\templates\furniture_pale-blue\images\product-06.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/footer.php" afterPath="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/header.php" afterPath="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/result_modifier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OMI.iws" />
@@ -51,18 +44,28 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-164.70589">
-              <caret line="224" column="0" selection-start-line="142" selection-start-column="3" selection-end-line="224" selection-end-column="0" />
+            <state vertical-scroll-proportion="-163.97058">
+              <caret line="223" column="0" selection-start-line="142" selection-start-column="3" selection-end-line="223" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.647058">
-              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.7267442">
+              <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="result_modifier.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/result_modifier.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.147058">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.622093">
-              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+            <state vertical-scroll-proportion="-14.264706">
+              <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -135,11 +138,12 @@
         <option value="$PROJECT_DIR$/contacts/index.php" />
         <option value="$PROJECT_DIR$/bitrix/php_interface/init.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/style.css" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/about/index.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/header.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/footer.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/result_modifier.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/template.php" />
       </list>
     </option>
   </component>
@@ -469,7 +473,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1828125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17552084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -853,22 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.647058">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-164.70589">
-          <caret line="224" column="0" selection-start-line="142" selection-start-column="3" selection-end-line="224" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.588235">
@@ -883,8 +871,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.622093">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        <state vertical-scroll-proportion="-14.264706">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-163.97058">
+          <caret line="223" column="0" selection-start-line="142" selection-start-column="3" selection-end-line="223" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/result_modifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.147058">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/furniture_pale-blue/components/bitrix/news.list/scientistlist/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7267442">
+          <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
           <folding />
         </state>
       </provider>

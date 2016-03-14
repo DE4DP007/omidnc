@@ -23,8 +23,6 @@ $this->setFrameMode(true);?>
 	$this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));?>
 
 
-    <?=test_dump($arItem)?>
-
 	<div class="col-md-4 text-center" id="<?=$this->GetEditAreaId($arItem['ID']);?>">
         <div class="thumbnail">
             <?if($arParams["DISPLAY_PICTURE"]!="N" && is_array($arItem["PREVIEW_PICTURE"])):?>
@@ -35,11 +33,11 @@ $this->setFrameMode(true);?>
                     <?=$arItem["NAME"]?>
                     <br>
                     <small>
-                        <b><?=$arItem["PROPERTIES"]["RANK"]["VALUE"]?></b>
+                        <b><?=$arItem["PROPERTIES"]["RANK_NAME"]?></b>
                     </small>
                     <br>
                     <small>
-                        <?=$arItem["PROPERTIES"]["DEGREE"]["VALUE"]?>
+                        <?=$arItem["PROPERTIES"]["DEGREE_NAME"]?>
                     </small>
                     <br>
                 </a></h3>
