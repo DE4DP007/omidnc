@@ -55,7 +55,7 @@ IncludeTemplateLangFile(__FILE__);?>
 <!-- Script to Activate the Carousel -->
 <script type="text/javascript">
     $('.carousel').carousel({
-        interval: 12000 //changes the speed
+        interval: 15000 //changes the speed
     })
 </script>
 

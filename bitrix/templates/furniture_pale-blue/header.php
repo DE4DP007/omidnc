@@ -116,15 +116,23 @@
                 <div class="fill text-center">
                     <img src="<?=SITE_TEMPLATE_PATH?>/images/OMIBanner.jpg" alt="Отдел Математики и Информатики">
                 </div>
-                <?/*<div class="carousel-caption">
-                    <h2>Отдел Математики и Информатики</h2>
-                </div>*/?>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
+                <div class="fill text-center">
+                    <img src="<?=SITE_TEMPLATE_PATH?>/images/seminavr.jpg" alt="Заседание семинара Отдела">
+                </div>
+                <div class="carousel-caption">
+                    <h2>Заседание Отдела Математики и Информатики</h2>
+                </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
+                <div class="fill text-center">
+                    <img src="<?=SITE_TEMPLATE_PATH?>/images/70year.jpg" alt="70 лет Дагестанскому научному центру РАН">
+                </div>
+                <div class="carousel-caption">
+                    <h2>70 лет Дагестанскому научному центру РАН</h2>
+                </div>
+                <!--<div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>-->
             </div>
         </div>
 
