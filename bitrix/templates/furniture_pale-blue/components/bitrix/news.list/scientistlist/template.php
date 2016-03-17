@@ -52,6 +52,8 @@ $this->setFrameMode(true);?>
                     <li><a href="#"><i class="fa fa-2x fa-twitter-square"></i></a>
                     </li>
                 </ul>
+
+
             </div>
         </div>
     </div>

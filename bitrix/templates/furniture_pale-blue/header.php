@@ -53,6 +53,14 @@
     </style>
     <![endif]-->
 
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/bootstrap.min.js"></script>
+
+    <!--Custom OMI Tools -->
+    <script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/omiTools.js"></script>
 </head>
 
 <body>

@@ -195,7 +195,6 @@ $APPLICATION->SetTitle("Об Отделе Математики и Информа
     </div>
     <!-- /.row -->
 
-    <hr>
 
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

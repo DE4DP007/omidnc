@@ -46,11 +46,6 @@ IncludeTemplateLangFile(__FILE__);?>
 </div>
 <!-- /.container -->
 
-<!-- jQuery -->
-<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/jquery.js"></script>
-
-<!-- Bootstrap Core JavaScript -->
-<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/js/bootstrap.min.js"></script>
 
 <!-- Script to Activate the Carousel -->
 <script type="text/javascript">
